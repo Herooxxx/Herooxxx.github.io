@@ -1,0 +1,286 @@
+body {
+  background-image: url(background_tavern.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: unset;
+  overflow: hidden;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Holtwood One SC", serif;
+  text-decoration: underline white;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.5px black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: "Holtwood One SC", serif;
+  text-decoration: underline rgb(250, 25, 25);
+  -webkit-text-fill-color: rgb(250, 25, 25);
+  -webkit-text-stroke: 0.5px black;
+}
+
+.cont_nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box_nav {
+  padding: 100px;
+
+  background-image: url(planche_mode.png);
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  height: 10rem;
+}
+
+.box_nav {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 2.5em;
+  font-family: "Holtwood One SC", serif;
+  font-style: normal;
+}
+.game_link {
+  padding-top: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.cont_submit_player {
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  background-attachment: fixed;
+}
+
+.cont_submit {
+  background-image: url(Background-volet.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+  width: 100%;
+  aspect-ratio: 1512/862;
+  box-sizing: border-box;
+  padding: 50px;
+
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  border: solid 3 black;
+  background-color: #ffffff;
+}
+
+.cont_player {
+  background-position: fixed;
+}
+
+ol {
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px;
+}
+
+h3,h4 {
+  display: inline;
+  font-size: 32px;
+  text-decoration: underline;
+  margin: 0px 50px 0px 50px;
+}
+
+.box_player{
+  margin: 35px 0px 35px 0px;
+  justify-content: space-evenly;
+
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  color: rgb(0, 0, 0);
+}
+
+.box_player button{
+  margin-left: 25px;
+  margin-right: 50px;
+
+  width: 100%;
+  max-width: 100px;
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: .15rem .5rem;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  outline: 1.5px solid rgb(0, 0, 0);
+}
+
+.box_player input {
+  margin-left: 25px;
+  margin-right: 50px;
+
+  width: 100%;
+  max-width: 200px;
+  background-color: #f5f5f5;
+  color: #242424;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+}
+
+.box_player input:focus {
+  border-bottom: 4px solid rgb(0, 0, 0);
+  border-radius: 4px 4px 2px 2px;
+}
+
+.box_submit {
+  display: inline;
+
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 32px;
+
+  color: rgb(55, 30, 0);
+
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  overflow: hidden;
+}
+
+#player_name {
+  margin-left: 25px;
+  margin-right: 50px;
+
+  width: 100%;
+  max-width: 200px;
+  background-color: #f5f5f5;
+  color: #242424;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+}
+
+#player_name:focus {
+  border-bottom: 4px solid rgb(0, 0, 0);
+  border-radius: 4px 4px 2px 2px;
+}
+
+#input_envoyer {
+  margin-left: 25px;
+  margin-right: 50px;
+
+  width: 100%;
+  max-width: 100px;
+  background-color: #f5f5f5;
+  color: #242424;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  outline: 1.5px solid rgb(0, 0, 0);
+}
+
+.box_div2{
+  margin: 35px 0px 35px 0px;
+  justify-content: space-evenly;
+
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  color: rgb(0, 0, 0);
+}
+
+.box_div2 button{
+  margin-left: 25px;
+  margin-right: 50px;
+
+  width: 100%;
+  max-width: 100px;
+  background-color: #f5f5f5;
+  color: #242424;
+  padding: .15rem .5rem;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  outline: 1.5px solid rgb(0, 0, 0);
+}
+
+.cont_player2 {
+  background-position: fixed;
+}
+
+#Nom_joueur {
+  margin-left: 25px;
+  margin-right: 50px;
+
+  width: 100%;
+  max-width: 200px;
+  background-color: #f5f5f5;
+  color: #242424;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+}
+
+#Nom_joueur:focus {
+  border-bottom: 4px solid rgb(0, 0, 0);
+  border-radius: 4px 4px 2px 2px;
+}
+
+#Nom_envoyer {
+  margin-left: 25px;
+  margin-right: 50px;
+
+  width: 100%;
+  max-width: 100px;
+  background-color: #f5f5f5;
+  color: #242424;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  outline: 1.5px solid rgb(0, 0, 0);
+}
